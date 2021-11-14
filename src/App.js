@@ -2,7 +2,7 @@ import './App.css';
 import { Button, Col, Container, Form, FormControl, Nav, Navbar, Row } from 'react-bootstrap';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useHistory } from "react-router-dom";
 
 import Restaurant from "./Restaurant";
